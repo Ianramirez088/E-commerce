@@ -1,6 +1,4 @@
-CREATE DATABASE solid;
-
-CREATE TABLE people(
+CREATE TABLE customers(
     id SERIAL,
     names VARCHAR(100),
     sur_names VARCHAR(100),

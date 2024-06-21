@@ -22,7 +22,8 @@ const Navigator = {
 						<div class="navbar-nav">
 							<router-link to="/" class="nav-link">Tienda</router-link>
 							<router-link to="/sales" class="nav-link">Ventas</router-link>
-							<router-link to="/products" class="nav-link">Products</router-link>
+							<router-link to="/customers" class="nav-link">Clientes</router-link>
+							<router-link to="/" class="nav-link">Products</router-link>
 						</div>
 					</div>
 				</nav>

@@ -5,5 +5,5 @@ import store from "./store/index.js";
 import router from "./routes/index.js";
 
 const { createApp } = Vue;
-console.log(createApp)
-// createApp(App).use(store).use(router).mount("#app");
+
+createApp(App).use(store).use(router).mount("#app");

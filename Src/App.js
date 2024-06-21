@@ -1,19 +1,21 @@
 "use strict";
 
-// const { toRef } = Vue;
-// const { useStore } = Vuex;
-// const { useRouter } = VueRouter;
+const { toRef } = Vue;
+const { useStore } = Vuex;
+const { useRouter } = VueRouter;
+
+import ViewsContainers from './components/ViewsContainers.js';
 
 const App = {
 	name: "App",
-	components: { },
+	components: { ViewsContainers },
 	setup() {
 		return {  }
 	},
 	/*html*/
 	template: `
 		<transition name="fade" mode="out-in" appear>
-			<container/>
+			<views-containers></views-containers>
 		</transition>
 	`,
 };

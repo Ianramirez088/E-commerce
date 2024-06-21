@@ -1,5 +1,5 @@
 <?php
-	require_once '../../Src/Controllers/Sales/SaleController.php';
+	require_once '../../Src/Controllers/Sale/SaleController.php';
 
 	function route(string $option, array $params = []) {
 		switch ($option) {

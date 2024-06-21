@@ -1,5 +1,3 @@
-CREATE DATABASE solid;
-
 CREATE TABLE sales(
     id SERIAL,
     consecutive VARCHAR(100),
@@ -14,6 +12,6 @@ CREATE TABLE sales(
 
     PRIMARY KEY(id),
     UNIQUE (consecutive, person, product),
-    FOREIGN KEY (person) REFERENCES people(id),
+    FOREIGN KEY (person) REFERENCES customers(id),
     FOREIGN KEY (product) REFERENCES products(id)
 );
